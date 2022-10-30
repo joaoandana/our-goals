@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our goals</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="app">
+      <button class="showMusic hidden">
+        <img src="/images/show.png" alt="" />
+      </button>
+      <iframe
+        style="border-radius: 12px"
+        src="https://open.spotify.com/embed/playlist/7x0W8QjIA3PmQFPqOxxpPa?utm_source=generator"
+        width="100%"
+        height="380"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+        class="playerMusic d-none"
+      ></iframe>
+
+      <h1>Objetivos</h1>
+      <div class="inputs">
+        <input type="number" placeholder="ID" id="inputID" />
+        <input type="password" placeholder="Senha" id="inputSenha" />
+        <button class="button-validate">Enviar</button>
+      </div>
+
+      <h2 class="status"></h2>
+    </div>
+    <script defer type="module" src="/main.js"></script>
+  </body>
+</html>
