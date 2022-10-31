@@ -1,7 +1,7 @@
 export const metas = [
   `<div class="goal">
     <h2 class="goal-title">Cozinhar vários pratos</h2>
-    <img src="https://i.pinimg.com/736x/95/d9/e2/95d9e204e7e0ca7b17220fc1ae2fb10e.jpg"/>
+    <img src="./images/goal-0.jpg"/>
   </div>`,
   `<div class="goal">
     <h2 class="goal-title">Aprender a cozinhar doces e salgados</h2>
