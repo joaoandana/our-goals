@@ -1,95 +1,24 @@
 export const metas = [
-  `<div class="goal">
-    <h2 class="goal-title">Cozinhar vários pratos</h2>
-    <img src="./images/goal-0.jpg"/>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Aprender a cozinhar doces e salgados</h2>
-    <ul class="goal-list">
-      <li>Batata frita do Outback</li>
-      <li>Batata recheada</li>
-      <li>Pizza</li>
-      <li>Massa caseira</li>
-      <li>Palha Italiana</li>
-      <li>Petit gateau</li>
-      <li>Lasanha</li>
-      <li>Fricassê de frango</li>
-      <li>Hambúrguer caseiro</li>
-      <li>Mil folhas</li>
-      <li>Tarte tain</li>
-      <li>Panqueca</li>
-    </ul>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Viajar pro Canadá</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Programar juntos</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Viajar pra vários países</h2>
-    <ul class="goal-list">
-      <li>Reino Unido</li>
-      <li>Portugal</li>
-      <li>França</li>
-      <li>Itália</li>
-      <li>Holanda</li>
-    </ul>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Ter nosso carro próprio</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Mora fora do Brasil</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Conhecer vários restaurantes</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Ter vários gatinhos</h2>
-    <ul class="goal-list">
-    <li>Harry</li>
-    <li>Ahri</li>
-    <li>Lucian</li>
-  </ul>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Ter um filho</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Ter nossa própria casa</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Passar o final de semana no clube</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Comemorar aniversário de namoro num chalé</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Casar</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Ter um Instagram pra postarmos nossos momentos</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Ter um álbum de fotos</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Conhecer a Europa</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Fazer exercícios juntos</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Colecionar lembrancinhas de vários países</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Ter um escritório compartilhado pra nós dois</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Viajar de carro ouvindo música</h2>
-  </div>`,
-  `<div class="goal">
-    <h2 class="goal-title">Quer namorar comigo?</h2>
-  </div>`
+  `<div class="goal"><h2 class="goal-title">Cozinhar vários pratos</h2><img src="./images/goal-0.jpg"/></div>`,
+  `<div class="goal"><h2 class="goal-title">Aprender a cozinhar doces e salgados</h2><ul class="goal-list"><li>Batata frita do Outback</li><li>Batata recheada</li><li>Pizza</li><li>Massa caseira</li><li>Palha Italiana</li><li>Petit gateau</li><li>Lasanha</li><li>Fricassê de frango</li><li>Hambúrguer caseiro</li><li>Mil folhas</li><li>Tarte tain</li><li>Panqueca</li></ul></div>`,
+  `<div class="goal"><h2 class="goal-title">Viajar pro Canadá</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Programar juntos</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Viajar pra vários países</h2><ul class="goal-list"><li>Reino Unido</li><li>Portugal</li><li>França</li><li>Itália</li><li>Holanda</li></ul></div>`,
+  `<div class="goal"><h2 class="goal-title">Ter nosso carro próprio</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Mora fora do Brasil</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Conhecer vários restaurantes</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Ter vários gatinhos</h2><ul class="goal-list"><li>Harry</li><li>Ahri</li><li>Lucian</li></ul></div>`,
+  `<div class="goal"><h2 class="goal-title">Ter um filho</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Ter nossa própria casa</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Passar o final de semana no clube</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Comemorar aniversário de namoro num chalé</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Casar</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Ter um Instagram pra postarmos nossos momentos</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Ter um álbum de fotos</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Conhecer a Europa</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Fazer exercícios juntos</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Colecionar lembrancinhas de vários países</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Ter um escritório compartilhado pra nós dois</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Viajar de carro ouvindo música</h2></div>`,
+  `<div class="goal"><h2 class="goal-title">Quer namorar comigo?</h2></div>`
 ];
