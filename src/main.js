@@ -39,8 +39,11 @@ function showObj() {
   if (validation == true) {
     elements.statusCore.classList.add("correct");
     elements.statusCore.innerHTML = metas[objID];
-    elements.inputId.focus();
     elements.inputId.value = "";
+
+    if (window.screen.width > 768) {
+      elements.inputId.focus();
+    }
   } else if (validation == false) {
     elements.statusCore.classList.add("wrong");
     elements.statusCore.textContent = "Senha errada";
