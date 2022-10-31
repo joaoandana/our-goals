@@ -14,10 +14,6 @@ elements.showMusic.addEventListener("click", () => {
   }
 });
 
-setTimeout(() => {
-  document.querySelector('[title="Play"]').click();
-}, 5000);
-
 function validateSenha() {
   const inputIdValue = elements.inputId.value;
   const inputPasswordValue = elements.inputSenha.value;
@@ -42,7 +38,9 @@ function showObj() {
 
   if (validation == true) {
     elements.statusCore.classList.add("correct");
-    elements.statusCore.textContent = metas[objID];
+    elements.statusCore.innerHTML = metas[objID];
+    elements.inputId.focus();
+    elements.inputId.value = "";
   } else if (validation == false) {
     elements.statusCore.classList.add("wrong");
     elements.statusCore.textContent = "Senha errada";
